@@ -1,10 +1,14 @@
 <?php 
-class Login extends CI_Controller{
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-	public function Logon()
+
+class LoginController extends CI_Controller{
+
+	public function index()
 	{
+		#$this->load->helper('url');
 		$this->load->view('Login');
-		#$this->load->view('welcome_message');
+		
 	}
 
 	
