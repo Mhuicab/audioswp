@@ -34,7 +34,7 @@
 				<input type="checkbox"> Check me out
 			</label>
 		</div>
-		<button type="submit" class="btn btn-default">Submit</button>
+		<button type="submit" class="btn btn-success">Submit</button>
 	</form>
 	</div>
 	<div class="col-lg-4"></div>
