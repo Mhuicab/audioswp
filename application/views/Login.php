@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<link href="<?= base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
-	<script src="<?= base_url(); ?>assets/js/bootstrap.min.js"></script>
-	<script src="<?= base_url(); ?>assets/js/jquery.js"></script>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Login</title>
-</head>
-
-<body>
-	<div class="row">
-	<div class="col-lg-4"></div>
-	<div class="col-lg-4" id="ContLogin">
-	<form>
-		<div class="form-group">
-			<label for="exampleInputEmail1">Email address</label>
-			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+	<head>
+		<link href="<?= base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<script src="<?= base_url(); ?>assets/js/bootstrap.min.js"></script>
+		<script src="<?= base_url(); ?>assets/js/jquery.js"></script>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Login</title>
+	</head>
+	<body>
+		<div class="container login">
+			<div class="row">
+				<div class="separador">
+				</div>
+				<div class="row">
+					<fieldset class="col-xs-10 col-xs-offset-1">
+						<legend class="hidden-xs"> <h3>Inicio de sesi&oacute;n</h3></legend>
+						<div class="form-horizontal">
+							<div class="form-group">
+								<label class="col-xs-12" for="Usuario"><h4>Usuario</h4></label>
+								<div class="col-xs-10 col-xs-offset-1">
+									<input type="text" placeholder="Usuario" id="Usuario" class="form-control Input">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-xs-12" for="Password"><h4>Contraseña</h4></label>
+								<div class="col-xs-10 col-xs-offset-1">
+									<input type="text" placeholder="Contraseña" id="Password" class="form-control Input">
+								</div>
+							</div>
+							<div class="form-group">
+								<button type="button" id="enviar" class="btn btn-button center-block">Enviar</button>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+			</div>
 		</div>
-		<div class="form-group">
-			<label for="exampleInputPassword1">Password</label>
-			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-		</div>
-		<div class="form-group">
-			<label for="exampleInputFile">File input</label>
-			<input type="file" id="exampleInputFile">
-			<p class="help-block">Example block-level help text here.</p>
-		</div>
-		<div class="checkbox">
-			<label>
-				<input type="checkbox"> Check me out
-			</label>
-		</div>
-		<button type="submit" class="btn btn-success">Submit</button>
-	</form>
-	</div>
-	<div class="col-lg-4"></div>
-	</div>	
-	
-</body>
-
+	</body>
 </html>
