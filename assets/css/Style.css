@@ -1,56 +1,58 @@
 /*******************************Login***********************************/
 
 body {
-  /*background-image: url('../imagenes/fondo.png');*/
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+    /*background-image: url('../imagenes/fondo.png');*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .sizeLogo {
-  align-content: center;
-  width: 200px;
-  height: 100px;
-  margin-top: 0 auto;
-  padding-top: auto;
-  filter: blur(1px);
+    align-content: center;
+    width: 200px;
+    height: 100px;
+    margin-top: 0 auto;
+    padding-top: auto;
+    filter: blur(1px);
 }
 
-.login {
-  width: 500px;
-  margin: 0 auto;
-  margin-top: 150px;
-  transition: .2s;
-  border-radius: 10px;
-  background-color: rgba(53, 195, 209, 0.6);
-  box-shadow: 0px 0px 30px DarkTurquoise;
+.ContenLogin {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 150px;
+    transition: .2s;
+    border-radius: 10px;
+    background-color: rgba(53, 64, 209, 0.6);
+    box-shadow: 0px 0px 30px rgb(0, 125, 209);
 }
 
-h3, h4 {
-  text-align: center;
+h3,
+h4 {
+    text-align: center;
 }
 
 .Input {
-  transition: .8s;
-  border-style: groove;
-  background-color: rgba(255, 255, 255, 0.77);
+    transition: .8s;
+    border-style: groove;
+    background-color: rgba(255, 255, 255, 0.77);
 }
 
 .Input:hover {
-  transition: .8s;
-  box-shadow: 0px 0px 25px rgba(32, 179, 73, 0.93);
+    transition: .8s;
+    box-shadow: 0px 0px 25px rgba(32, 179, 73, 0.93);
 }
 
 .login img {
-  width: 120px;
-  height: 120px;
-  margin-top: -60px;
-  margin-bottom: 30px;
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
 }
 
 .separador {
-  margin-top: 40px;
+    margin-top: 40px;
 }
+
 
 /************************************************************************/
